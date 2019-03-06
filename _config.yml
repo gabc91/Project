@@ -1,13 +1,17 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 
-docs_list_title: ACME Documentation
-docs:
-
-- title: Introduction
-  url: introduction.html
-
-- title: Configuration
-  url: configuration.html
-
-- title: Deployment
-  url: deployment.html
+navbar:
+type: default
+left:
+  - icon: fa-home fa-lg
+    href: index.html
+  - text: Reference
+    href: /reference/index.html
+  - text: Articles
+    menu:
+    - text: An Introduction to ggdag
+      href: /articles/intro-to-ggdag.html
+    - text: An Introduction to DAGs
+      href: /articles/intro-to-dags.html
+    - text: Common Structures of Bias
+      href: /articles/bias-structures.html
